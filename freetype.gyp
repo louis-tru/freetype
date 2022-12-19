@@ -1,7 +1,7 @@
 {
   'targets': [
     {
-      'target_name': 'ft2',
+      'target_name': 'freetype',
       'type': '<(library)',
       'direct_dependent_settings': {
         'include_dirs': [ 'include' ],
