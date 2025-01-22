@@ -94,8 +94,8 @@
 				'src/base/ftsystem.c',
 				'src/base/fttype1.c',
 				'src/base/ftwinfnt.c',
-				'src/base/ftver.c',
-				'src/base/ftzconf.c',
+				# 'src/base/ftver.c',
+				# 'src/base/ftzconf.c',
 				# bzip2
 				'src/bzip2/ftbzip2.c',
 				# cache
