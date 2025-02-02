@@ -142,6 +142,10 @@
 				'src/type42/type42.c',
 				# winfonts
 				'src/winfonts/winfnt.c',
+				# sdf
+				'src/sdf/sdf.c',
+				# svg
+				'src/svg/svg.c',
 			]
 		}
 	]
