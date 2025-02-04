@@ -10,9 +10,9 @@
 				'FT2_BUILD_LIBRARY'
 			],
 			'include_dirs':[ 'include' ],
-			'cflags': [ '-ansi' ],
+			#'cflags': [ '-ansi' ],
 			'xcode_settings': {
-				'GCC_C_LANGUAGE_STANDARD': 'ansi',
+				#'GCC_C_LANGUAGE_STANDARD': 'ansi',
 			},
 			# 'defines!': [ 'DEBUG', ],
 			'sources': [
