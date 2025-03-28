@@ -1,6 +1,6 @@
 {
 	'conditions': [
-		['os=="linux" or os=="android"', {
+		['os=="linux"', {
 			'targets': [
 				{
 					'target_name': 'freetype',
@@ -42,13 +42,11 @@
 					'include/freetype/config/ftstdlib.h',
 					'include/freetype/freetype.h',
 					'include/freetype/ftadvanc.h',
-					'include/freetype/ftautoh.h',
 					'include/freetype/ftbbox.h',
 					'include/freetype/ftbdf.h',
 					'include/freetype/ftbitmap.h',
 					'include/freetype/ftbzip2.h',
 					'include/freetype/ftcache.h',
-					'include/freetype/ftcffdrv.h',
 					'include/freetype/ftchapters.h',
 					'include/freetype/ftcid.h',
 					'include/freetype/fterrdef.h',
@@ -77,14 +75,12 @@
 					'include/freetype/ftsynth.h',
 					'include/freetype/ftsystem.h',
 					'include/freetype/fttrigon.h',
-					'include/freetype/ftttdrv.h',
 					'include/freetype/fttypes.h',
 					'include/freetype/ftwinfnt.h',
 					'include/freetype/t1tables.h',
 					'include/freetype/ttnameid.h',
 					'include/freetype/tttables.h',
 					'include/freetype/tttags.h',
-					'include/freetype/ttunpat.h',
 					# 
 					# src
 					# 
