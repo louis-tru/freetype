@@ -1,6 +1,6 @@
 {
 	'conditions': [
-		['os=="linux"', {
+		['os in "linux"', {
 			'targets': [
 				{
 					'target_name': 'freetype',
@@ -91,13 +91,11 @@
 					'src/base/ftbitmap.c',
 					'src/base/ftcid.c',
 					'src/base/ftdebug.c',
-					'src/base/ftfntfmt.c',
 					'src/base/ftfstype.c',
 					'src/base/ftgasp.c',
 					'src/base/ftglyph.c',
 					'src/base/ftgxval.c',
 					'src/base/ftinit.c',
-					'src/base/ftlcdfil.c',
 					'src/base/ftmm.c',
 					'src/base/ftotval.c',
 					'src/base/ftpatent.c',
@@ -107,8 +105,6 @@
 					'src/base/ftsystem.c',
 					'src/base/fttype1.c',
 					'src/base/ftwinfnt.c',
-					# 'src/base/ftver.c',
-					# 'src/base/ftzconf.c',
 					# bzip2
 					'src/bzip2/ftbzip2.c',
 					# cache
